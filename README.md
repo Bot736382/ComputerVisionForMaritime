@@ -1,6 +1,7 @@
 # ComputerVisionForMaritime
 ## Installation
 
+This is a more customised installation compared to the installation mentioned on YoloV9's official github repo.\\
 Docker environment (recommended). We will be using a docker container of Nvidia's PyTorch Release 21.11. Import the git clone of YoloV9 paper and the coco dataset into a single folder before installation. The ports 8888 and 6006 are reserved for this docker container for us to be able to access the Jupyter Notebook GUI and tenserboard plugins respectively.
 <details><summary> <b>Expand</b> </summary>
 
