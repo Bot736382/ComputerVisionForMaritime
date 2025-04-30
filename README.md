@@ -1,4 +1,7 @@
 # ComputerVisionForMaritime
+This repo is a culmination of all the learnings that have been taken from the specially designed learning course. It will be using YoloV9 to carry out a bunch of processes and adapt it to maritime uses.
+
+
 ## Installation
 
 This is a more customised installation compared to the installation mentioned on YoloV9's official github repo.
