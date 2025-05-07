@@ -19,12 +19,15 @@ apt install -y zip htop screen libgl1-mesa-glx
 # pip install required packages
 pip install seaborn thop
 
+# Install a specific version of Pillow for the model
+pip install Pillow==9.5.0
+
 # go to code folder
 cd /yolov9
 ```
 
 ## Training a Model on New Datasets
-### Initialisation
+### Dataset Setup
 Before initiating training yolov9 on new datasets, one must download the models from the [yolov9 original repository](https://github.com/WongKinYiu/yolov9). For the given tutorial, the author will be using the yolov9-c.pt model for retraining the parameters. 
 
 Required image file structure:
