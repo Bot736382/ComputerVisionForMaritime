@@ -28,6 +28,7 @@ cd /yolov9
 Before initiating training yolov9 on new datasets, one must download the models from the [yolov9 original repository](https://github.com/WongKinYiu/yolov9). For the given tutorial, the author will be using the yolov9-c.pt model for retraining the parameters. 
 
 Required image file structure:
+
 ![image](https://github.com/user-attachments/assets/9c74d45b-1614-4e41-b8a9-648b27e49fd2)
 
 
