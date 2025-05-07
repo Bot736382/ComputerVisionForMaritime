@@ -23,3 +23,6 @@ pip install seaborn thop
 cd /yolov9
 ```
 
+## Training a Model on New Datasets
+
+
