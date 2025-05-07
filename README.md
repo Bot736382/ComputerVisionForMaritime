@@ -25,4 +25,6 @@ cd /yolov9
 
 ## Training a Model on New Datasets
 
-
+``` shell
+python train_dual.py --workers 4 --device 0 --batch 8 --data new_data/seaships.yaml --cfg models/detect/yolov9-c.yaml --weights './weights/yolov9-c.pt' --name train2_new --min-items 0 --epochs 50 --close-mosaic 15
+```
