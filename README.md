@@ -24,7 +24,7 @@ cd /yolov9
 ```
 
 ## Training a Model on New Datasets
-
+We start of by running this. The new_data folder is basically a combination of the SeaShips dataset as can be found on: [SeaShips](http://www.lmars.whu.edu.cn/prof_web/shaozhenfeng/datasets/SeaShips%287000%29.zip)
 ``` shell
 python train_dual.py --workers 4 --device 0 --batch 8 --data new_data/seaships.yaml --cfg models/detect/yolov9-c.yaml --weights './weights/yolov9-c.pt' --name train2_new --min-items 0 --epochs 50 --close-mosaic 15
 ```
