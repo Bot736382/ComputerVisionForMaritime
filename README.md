@@ -45,5 +45,5 @@ Once the model has been retrained, it is stored as ./runs/train/train2_new/best.
 ### Evaluation
 This new model can be evaluated by:
 ``` shell
-python val.py --data new_data/seaships.yaml --batch 2 --conf 0.001 --iou 0.7 --device 0 --weights './runs/train/OBS_10/weights/best'' --save-json --name OBS_10_eval
+python val.py --data new_data/seaships.yaml --batch 2 --conf 0.001 --iou 0.7 --device 0 --weights './runs/train/OBS_10/weights/best.pt' --save-json --name OBS_10_eval
 ```
