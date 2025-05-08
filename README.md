@@ -40,3 +40,10 @@ We start of by running this. The new_data folder is basically a combination of t
 ``` shell
 python train_dual.py --workers 4 --device 0 --batch 8 --data new_data/seaships.yaml --cfg models/detect/yolov9-c.yaml --weights './weights/yolov9-c.pt' --name train2_new --min-items 0 --epochs 50 --close-mosaic 15
 ```
+Once the model has been retrained, it is stored as ./runs/train/train2_new/best.pt. 
+
+### Evaluation
+This new model can be evaluated by:
+``` shell
+python val.py --data new_data/seaships.yaml --batch 2 --conf 0.001 --iou 0.7 --device 0 --weights './runs/train/OBS_10/weights/best'' --save-json --name OBS_10_eval
+```
